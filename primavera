@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primavera Tienda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #f9c9d2;
+      color: #000;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      background-color: #a8dadc;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .product {
+      background-color: #f4f4f4;
+      border-radius: 12px;
+      padding: 1rem;
+      margin: 1rem auto;
+      max-width: 300px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.2rem;
+      background-color: #a8dadc;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #f9c9d2;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Primavera Tienda</h1>
+    <p>Moda fresca todo el año — Compra fácil, segura y con estilo</p>
+  </header>
+
+  <nav>
+    <a href="#mujer">Ropa de Mujer</a>
+    <a href="#hombre">Ropa de Hombre</a>
+    <a href="#accesorios">Accesorios</a>
+    <a href="#ofertas">Ofertas especiales</a>
+  </nav>
+
+  <section id="ofertas">
+    <h2>Ofertas destacadas</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400?text=Vestido+de+Verano" alt="Vestido de verano">
+      <h3>Vestido de verano</h3>
+      <p>$45.000</p>
+      <a class="button" href="https://wa.me/573122891752">Comprar por WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400?text=Camisa+Hombre" alt="Camisa hombre">
+      <h3>Camisa hombre</h3>
+      <p>$55.000</p>
+      <a class="button" href="https://wa.me/573122891752">Comprar por WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="mujer">
+    <h2>Ropa de Mujer</h2>
+    <p>Explora nuestra colección de blusas, vestidos y conjuntos cómodos y modernos.</p>
+  </section>
+
+  <section id="hombre">
+    <h2>Ropa de Hombre</h2>
+    <p>Moda casual, camisas y prendas perfectas para toda ocasión.</p>
+  </section>
+
+  <section id="accesorios">
+    <h2>Accesorios</h2>
+    <p>Complementa tu estilo con nuestras gafas, bolsos, cinturones y más.</p>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>📱 WhatsApp: <a href="https://wa.me/573122891752">+57 312 2891752</a></p>
+    <p>📷 Instagram: <a href="https://instagram.com/primavera.tienda1">@primavera.tienda1</a></p>
+  </section>
+
+  <footer>
+    <p>Gracias por apoyar nuestra tienda 🌸 Primavera Tienda © 2025</p>
+  </footer>
+</body>
+</html>
