@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primavera Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌸 Primavera Tienda 🌸</h1>
+        <p>Moda que florece contigo</p>
+        <nav>
+            <ul>
+                <li><a href="#ropa">Ropa</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ropa">
+            <h2>Ropa</h2>
+            <div class="producto">Vestido Floral - $80.000</div>
+            <div class="producto">Camisa Primavera - $45.000</div>
+        </section>
+
+        <section id="accesorios">
+            <h2>Accesorios</h2>
+            <div class="producto">Aretes Naturaleza - $25.000</div>
+            <div class="producto">Bolso de Tela - $60.000</div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>📞 +57 312 2891752</p>
+            <p>📸 Instagram: <a href="https://instagram.com/primavera.tienda1" target="_blank">@primavera.tienda1</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Primavera Tienda - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
